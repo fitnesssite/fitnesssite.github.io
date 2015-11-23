@@ -1,0 +1,161 @@
+body {
+  margin:0;
+  padding:0;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #DDDAD6;
+}
+
+div a {
+	text-decoration: none;
+	color: black;
+}
+
+#banner {
+	text-align: center;
+	border-bottom: solid 1px darkgrey;
+	background-color: #181818;
+	max-height: 288px;
+	
+}
+
+#banner img {
+}
+
+#main {
+  width:700px;
+  height: auto; 
+  padding: 25px;
+  float: right;
+  background-color: #fafafa;
+  clear: left;
+  border: solid darkgrey;
+  border-width: 0px 1px 0px 1px;
+}
+
+#main div{
+	display: inline-block;
+}
+
+#mainfill {
+	width: 100%;
+}
+
+#wall {
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	
+	padding:0;
+	margin:0;
+}
+
+#wall p{
+	margin-top: auto;
+	margin-bottom: auto;
+	text-align: center;
+}
+
+#sidebar {
+  width: 170px;
+  background-color: none;
+  min-height: 200px;
+  min-width: 120px;
+  margin: 10px 0 10px 0; /*controls the cutoff of the top and bottom limitations*/
+  padding: 15px 10px;
+  padding-right: 2px;
+  	position: fixed;
+  float: left; /* float right for a right aligned sidebar */
+
+}
+
+#wrapper {
+  width: 940px; /* MUST HAVE WIDTH SET, should be the sidebar width + main width */
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+#sidebar div {
+	padding: 0;
+	margin: 0;
+	width: 170px;
+	text-align: center;
+	color: #ae9c96;
+	  -moz-box-shadow:    -2px 0 5px 0 #555;
+  -webkit-box-shadow: -2px 0 5px 0 #555;
+  box-shadow:         -2px 0 5px 0 #555;
+	opacity: 0.85;
+	background-color: #7F909A;
+}
+
+#d1 {
+	width: 100%;
+}
+#d2 {
+	width: 100%;
+}
+#d3 {
+	width: 100%;
+}
+#d4 {
+	width: 100%;
+}
+#d5 {
+	width: 100%;
+}
+#d6 {
+	width: 100%;
+}
+
+.graph-left {
+	border-top: solid 3px #f2f2f2;
+	border-bottom: solid 3px #f2f2f2;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	float:left;
+	width: 50%;
+}
+.graph img{
+	
+}
+
+.right-info {
+	float:right;
+	width: 50%;
+}
+
+.centertext {
+	text-align:center;
+	clear: both;
+	padding-top: 35px;
+}
+
+.fotorama {
+	clear: both;
+	text-align: center;
+	margin-top: 30px;
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+#bottom {
+	clear: both;
+	background-color: #181818;
+	color: #F1FCE3;
+	border-top: solid 1px black;
+	margin: 0;
+	float: left;
+	width: 100%;
+	
+}
+#bottom p {
+	font-size: 12px;
+	width: 25%;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+
+
