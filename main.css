@@ -5,10 +5,11 @@ body {
   background-color: #DDDAD6;
 }
 
-sidebar a {
+#sidebar a {
 	text-decoration: none;
 	color: black;
 }
+
 
 #banner {
 	text-align: center;
@@ -94,6 +95,13 @@ sidebar a {
 #d2 {
 	width: 100%;
 }
+#d2 div {
+	-moz-box-shadow:    -6px 0 5px 0 #555;
+  -webkit-box-shadow: -6px 0 5px 0 #555;
+  box-shadow:         -6px 0 5px 0 #555;
+	opacity: 0.85;
+}
+
 #d3 {
 	width: 100%;
 }
@@ -105,6 +113,13 @@ sidebar a {
 }
 #d6 {
 	width: 100%;
+}
+
+#d6 div {
+	-moz-box-shadow:    -6px 0 5px 0 #555;
+  -webkit-box-shadow: -6px 0 5px 0 #555;
+  box-shadow:         -6px 0 5px 0 #555;
+	opacity: 0.85;
 }
 
 .graph-left {
@@ -158,6 +173,13 @@ sidebar a {
 	margin-right: 3%;
 }
 
+.thickline {
+	height: 30px; border-style: solid; border-color: #7F909A; border-width: 10px 0 0 0; border-radius: 66px; 
+}
+
+.fan div p{
+	padding: 25px;
+}
 
 
 
