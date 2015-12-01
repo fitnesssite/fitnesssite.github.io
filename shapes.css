@@ -1,10 +1,10 @@
-.a1 { width: 230px; height: 230px; background: #385B9F; } 
-.a2 { width: 230px; height: 230px; background: #7F909A; } 
-.a3 { width: 230px; height: 230px; background: #385B9F; } 
+#a1 { width: 230px; height: 230px; background: #385B9F; } 
+#a2 { width: 230px; height: 230px; background: #7F909A; } 
+#a3 { width: 230px; height: 230px; background: #385B9F; } 
 
-.b1 { width: 230px; height: 230px; background: #ED6639; }
-.b2 { width: 230px; height: 230px; background: #385B9F; }
-.b3 { width: 230px; height: 230px; background: #ED6639; }
+#b1 { width: 230px; height: 230px; background: #ED6639; }
+#b2 { width: 230px; height: 230px; background: #385B9F; }
+#b3 { width: 230px; height: 230px; background: #ED6639; }
 
 
 
