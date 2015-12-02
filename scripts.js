@@ -21,13 +21,13 @@ $(document).ready(function(){
 	$('#sidebar div').mouseleave(function(){
 		$(this).css('cursor', 'default');
 	});
-	$("#d2-a, #d2-b, #d3-a, #d3-b").hide();
 	
-	$("#d2").hover(function(){
-		$("#d2-a, #d2-b").show();
+
+	$(function() {
+		$("#d6").menu();
 	});
 	
-	$("#d6 div").hide();
+$("#d6 div").hide();
 
 $("#d6").mouseenter(function(){
 	$(this).children().show('medium');
@@ -46,6 +46,8 @@ $("#d2").mouseenter(function(){
 $("#d2").mouseleave(function(){
 	$(this).children('div').hide('medium');
 });
+
+
 
 	
 	

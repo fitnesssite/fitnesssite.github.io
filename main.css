@@ -17,9 +17,12 @@ body {
 	background-color: #181818;
 	max-height: 288px;
 	
+	
 }
 
 #banner img {
+	margin-left: 36px;
+	
 }
 
 #main {
@@ -50,8 +53,8 @@ body {
 	margin: auto;
 }
 
-#wall p{
-	margin-top: auto;
+#wall h4{
+	margin-top: 20px;
 	margin-bottom: auto;
 	text-align: center;
 }
